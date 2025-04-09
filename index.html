@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebApp Traduttore</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="panel">
+                <h1>Traduttore</h1>
+                <img src="images/translation.png">
+            </header>
+
+            <main>
+                <section class="panel translation">
+                    <div class="translation-flag"></div>
+                    <div class="translation-result">
+                        <p class="translation-text">Traduzione</p>
+                    </div>
+                </section>
+
+                <section class="panel controls">
+                    <input class="text-input" type="text" placeholder="Inserisci testo da tradurre">
+                    <button class="lang-button" data-lang="en">EN</button>
+                    <button class="lang-button" data-lang="fr">FR</button>
+                    <button class="lang-button" data-lang="es">ES</button>
+                    <button class="reset-button">X</button>
+                </section>
+            </main>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

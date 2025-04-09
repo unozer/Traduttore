@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 16px;
+    background-color: rgb(234, 237, 240);
+}
+
+h1 {
+    font-size: 21px;
+    color: white;
+    text-transform: uppercase;
+}
+
+input {
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;    
+}
+
+button {
+    padding: 8px 16px;
+    background-color: rgb(128, 176, 255);
+    font-size: 32px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.container {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.panel {
+    background-color: rgb(70, 100, 242);
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.translation {
+    background-color: white;
+    margin-bottom: 16px;
+}
+
+.translation-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+}
+
+.translation-text {
+    font-size: 32px;
+}
+
+.translation-flag {
+    position: absolute;
+    font-size: 32px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px
+}
+
+.text-input {
+    width: 100%;
+}
