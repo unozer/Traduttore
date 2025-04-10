@@ -1,4 +1,5 @@
 // recupero i componenti dalla pagina html
+const pippo = "pippo";
 const langButtons = document.querySelectorAll('.lang-button');
 const textInput = document.querySelector('.text-input');
 const translationText = document.querySelector('.translation-text');
