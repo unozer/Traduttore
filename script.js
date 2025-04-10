@@ -42,3 +42,6 @@ langButtons.forEach(button => {
 
 //commento inutile
 // cerchiamo di creare un conflitto
+
+// inizio una nuova feature
+console.log("nuova feature, da 10M$"); 
